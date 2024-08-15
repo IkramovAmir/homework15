@@ -1,0 +1,12 @@
+.about__us{
+    background-color: #FF7235;
+}
+.overview{
+padding-top: 100px;
+  text-align: center;
+}
+@media(max-width:1250px){
+    .overview img{
+        width: 100%;
+    }
+}

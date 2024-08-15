@@ -1,0 +1,74 @@
+.plans{
+    background-color: #FFFAF8;
+}
+.plans__title{
+    text-align: center;
+    font-size: 70px;
+    padding: 40px 0px;
+    padding-top: 100px;
+}
+.plans__cards{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+.plans__card-starter{
+    background-color: white;
+    box-shadow: 1px 1px 5px 5px gray;
+    padding: 30px 50px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 12px;
+}
+
+.plans__card-starter-img {
+    
+    width: 40px;
+    padding: 5px 10px;
+    border-radius: 50%;
+}
+.plans__card-starter-img:hover{
+    background-color: gray;
+    color: white;
+}
+.plans__card-title{
+    padding: 10px 0px;
+    font-size: 25px;
+    justify-content: center;
+}
+.plan__card-item{
+    padding: 5px 0px;
+    list-style-image: url(../img/planicon.png);
+    /* background-color: #FF7235; */
+}
+.plan__card-price{
+    display: flex;
+    padding: 10px 0px;
+    align-items: center;
+}
+.price{
+    font-size: 22px;
+}
+.plan__card-desc{
+    font-size: 16px;
+    opacity: 0.6;
+    padding-bottom: 10px;
+}.plan__card-btn{
+    padding: 10px 0px;
+    border: 2px solid #FF7235;
+    color: #FF7235;background-color: white;
+}
+.plan__card-btn:hover{
+background-color: #FF7235;
+color: white;
+}
+@media(max-width:767px){
+    .plans__title{
+        font-size: 30px;
+        width: 100%;
+    }
+    .plans__cards{
+        display: flex;
+        flex-wrap: wrap;
+    }
+}

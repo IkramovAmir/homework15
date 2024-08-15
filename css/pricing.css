@@ -1,0 +1,46 @@
+.pricing__infos{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    padding: 50px 0px;
+}
+.pricing__cost{
+    text-transform: uppercase;
+    opacity: 0.5;
+}
+.pricing__title{
+    font-size: 75px;
+    width: 480px;
+    padding-top: 20px;
+}
+.pricing__desc{
+    font-size: 20px;
+    width: 390px;
+    padding: 30px 0px;
+    opacity: 0.5;
+}
+.pricing__link{
+    color: #FF7235;
+}
+.pricing__img img{
+    width: 420px;
+}
+@media(max-width:1000px){
+    .pricing__infos{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .pricing__img img{
+        width: 100%;
+    }
+}
+@media(max-width:600px){
+    .pricing__title{
+        font-size: 36px;
+        width: 100%;
+    }
+    .pricing__desc{
+        width: 100%;
+        font-size: 15px;
+    }
+}

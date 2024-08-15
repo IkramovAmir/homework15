@@ -1,0 +1,45 @@
+.support{
+    padding: 150px 0px;
+}
+.supports{
+    display: flex;
+    justify-content: center;
+}
+.support__online{
+    opacity: 0.5;
+}
+.support__title{
+    font-size: 70px;
+    width: 350px;
+    padding-top: 20px;
+}
+.support__desc{
+    width: 350px;
+    padding: 30px 0px;
+    opacity: 0.5;
+}
+.support__link{
+    color: #FF7235;
+}
+.support__img img{
+    width: 450px;
+}
+@media(max-width:876px){
+    .supports{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .support__img img{
+        width: 100%;
+    }
+}
+@media(max-width:400px){
+    .support__title{
+        font-size: 30px;
+        width: 100%;
+    }
+    .support__desc{
+        font-size: 15px;
+        width: 100%;
+    }
+}

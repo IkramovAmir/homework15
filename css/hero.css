@@ -1,0 +1,65 @@
+.hero__cards{
+    display: flex;
+    justify-content: center;
+        padding-bottom: 150px;
+
+}
+
+.hero__title{
+    padding-top: 80px;
+    font-size: 70px;
+    width: 500px;
+}
+.hero__desc{
+    font-size: 24px;
+    opacity: 0.6;
+    padding: 15px 0px;
+}
+.hero__btns{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.hero__btn{
+    padding: 15px 30px;
+    text-align: center;    
+    font-size: 20px;
+}
+.hero__btn:hover{
+    background-color: #FF7235;
+    color: white;
+}
+.hero__btn-desc{
+    opacity: 0.7;
+}
+@media(max-width:1100px){
+    .hero__cards{
+        display: flex;
+        flex-wrap: wrap;
+    }
+}
+@media(max-width:576px){
+    .hero__title{
+        font-size: 40px;
+        text-align: center;
+        width: 100%;
+    }
+    .hero__desc{
+        font-size: 20px;
+        width: 100%;
+        text-align: center;
+    }
+    .hero__btn{
+        padding: 4px 8px;
+        font-size: 12px;
+    }
+    .hero__btns{
+        width: 100%;
+        text-align: center;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .hero__img img{
+        width: 100%;
+    }
+}
